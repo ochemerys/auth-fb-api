@@ -46,13 +46,13 @@ Create env.stage.json file under functions folder.
     "firebaseServiceAccount": {
       // content of generated private key goes here
     },
-    "authRootUser": "root user email ",
-    "firebaseDatabaseUrl": "https://your-task-management-stage-project-db-url"
+    "authRootUser": "root user email",
+    "firebaseDatabaseUrl": "https://your-stage-project-db-url"
   }
 }
 ```
 
-Open Terminal in project root and run
+Open terminal under functions folder which is a **project root** and run
 
 ``` shell
 npm install
@@ -60,7 +60,7 @@ npm install
 
 ### Deploy application to stage environment
 
-Open Terminal in project root and run
+Open terminal in project root and run
 
 ``` shell
 npm run deploy:stage
