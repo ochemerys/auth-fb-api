@@ -1,0 +1,16 @@
+## Compiled JavaScript files
+lib/
+
+# Typescript v1 declaration files
+typings/
+
+.vscode/
+
+# environment variables file
+/env.*.json
+
+
+
+
+
+
