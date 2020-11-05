@@ -1,7 +1,7 @@
 # Auth Firebase micro-service
 
 This is a boilerplate of Role-based micro-service API implemented as NodeJS Firebase Functions to authenticate and authorize users with firebase authentication.
-It is designed for my FIrebase projects in particularly Task Management project.
+It is designed as auth micro-service for my Firebase projects in particularly Task Management project.
 
 ## Setup
 
