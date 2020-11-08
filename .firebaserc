@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "task-management"
+    "default": "fb-task-management",
+    "staging": "fb-task-management-stage"
   }
 }
