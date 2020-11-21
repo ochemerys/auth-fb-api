@@ -41,7 +41,10 @@ export async function all(req: Request, res: Response) {
 export async function get(req: Request, res: Response) {
   try {
     const { id } = req.params;
+
     const user = await auth.getUser(id);
+    // functions.logger.log('patch:: user:', user);
+    // functions.logger.log('patch:: mapped user:', mapUser(user));
     return res.status(200).send({ user: mapUser(user) });
   } catch (err) {
     return handleError(res, err);
